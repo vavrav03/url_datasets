@@ -1,0 +1,4 @@
+- link: https://data.mendeley.com/datasets/gdx3pkwp47/2
+- Benign: 1172747 (97.73% of total) Malicious: 27253 (2.27% of total)
+- google safe browsing for verification of maliciousness
+- Malcrawler - https://github.com/ekollof/malcrawler

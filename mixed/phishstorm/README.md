@@ -1,0 +1,2 @@
+- https://research.aalto.fi/en/datasets/phishstorm-phishing-legitimate-url-dataset
+- 0: legitimate, 1: phishing

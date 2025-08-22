@@ -1,0 +1,21 @@
+## ISCX-URL2016
+- description url: https://www.unb.ca/cic/datasets/url-2016.html
+- download url: http://cicresearch.ca/CICDataset/ISCX-URL-2016/Dataset/
+- paper about it url: https://www.semanticscholar.org/paper/Detecting-Malicious-URLs-Using-Lexical-Analysis-Mamun-Rathore/01bb00b24fb2bcf1d11748d0c39ba60367b4c264
+- 2016
+- 114,250 records
+- content
+	- **Benign URLs**: 35,300 benign URLs were collected
+		- from Alexa top websites. 
+		- The domains have been passed through a Heritrix web crawler to extract the URLs. 
+		- Around half a million unique URLs are crawled initially and then passed to remove duplicate and domain only URLs.
+		- Later the extracted URLs have been checked through Virustotal to filter the benign URLs.
+	- **Spam URLs**: 
+		- 12,000 spam URLs were collected from the publicly available WEBSPAM-UK2007 dataset.
+	- **Phishing URLs**: 
+		- 10,000 phishing URLs were taken from OpenPhish which is a repository of active phishing sites.
+	- **Malware URLs**: 
+		- 11,500 URLs related to malware websites were obtained from DNS-BH which is a project that maintain list of malware sites.
+	- **Defacement URLs**: 
+		- 45,450 URLs belong to Defacement URL category. They are Alexa ranked trusted websites hosting fraudulent or hidden URL that contains both malicious web pages.
+		- this one has been removed from the final dataset - defacement attack cannot be detected simply from the string
